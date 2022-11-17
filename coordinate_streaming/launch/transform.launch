@@ -1,0 +1,5 @@
+<launch>
+  <include file="$(find ros_tcp_endpoint)/launch/endpoint.launch" />
+  <node pkg="coordinate_streaming" type="data_transform.py" name="data_transform">
+  </node>
+</launch>

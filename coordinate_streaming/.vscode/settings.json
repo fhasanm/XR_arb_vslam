@@ -1,0 +1,5 @@
+{
+    "python.analysis.extraPaths": [
+        "./transforms3d/transforms3d"
+    ]
+}
